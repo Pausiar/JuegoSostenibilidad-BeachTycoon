@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Playa con sol -->
+    <path
+        android:pathData="M0,35h64v29H0z"
+        android:fillColor="#F4D03F"/>
+    <path
+        android:pathData="M0,30c10,-5 20,5 30,0s20,-5 34,0v5H0z"
+        android:fillColor="#5DADE2"/>
+    <!-- Sol -->
+    <path
+        android:pathData="M50,15c4.4,0 8,3.6 8,8s-3.6,8 -8,8 -8,-3.6 -8,-8 3.6,-8 8,-8z"
+        android:fillColor="#F1C40F"/>
+    <!-- Rayos -->
+    <path
+        android:pathData="M50,5v5M50,31v5M40,15h5M55,15h5M43,8l3,3M57,22l3,3M43,22l3,-3M57,8l3,3"
+        android:strokeColor="#F1C40F"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"/>
+    <!-- Palmera -->
+    <path
+        android:pathData="M14,40v18"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M14,40c-8,-5 -12,0 -12,0s8,-3 10,0c-10,-2 -8,5 -8,5s5,-5 8,0c-5,-2 -5,5 -5,5s3,-5 7,-2"
+        android:fillColor="#27AE60"/>
+    <path
+        android:pathData="M14,40c8,-5 12,0 12,0s-8,-3 -10,0c10,-2 8,5 8,5s-5,-5 -8,0c5,-2 5,5 5,5s-3,-5 -7,-2"
+        android:fillColor="#2ECC71"/>
+</vector>

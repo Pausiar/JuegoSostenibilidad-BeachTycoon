@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Mar profundo -->
+    <path
+        android:pathData="M0,0h64v64H0z"
+        android:fillColor="#1A5276"/>
+    <!-- Gradiente oscuro (simulado con capas) -->
+    <path
+        android:pathData="M0,30h64v34H0z"
+        android:fillColor="#154360"/>
+    <!-- Anémona -->
+    <path
+        android:pathData="M30,64v-10c-2,-5 2,-5 0,-10 -2,5 2,5 0,10v10M35,64v-8c-1.5,-4 1.5,-4 0,-8 -1.5,4 1.5,4 0,8v8M25,64v-8c-1.5,-4 1.5,-4 0,-8 -1.5,4 1.5,4 0,8v8"
+        android:strokeColor="#9B59B6"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"/>
+    <!-- Medusa -->
+    <path
+        android:pathData="M50,15c5,0 10,3 10,8s-5,8 -10,8 -10,-3 -10,-8 5,-8 10,-8z"
+        android:fillColor="#B3D6EAF8"/>
+    <path
+        android:pathData="M43,31v10c0,3 -1,5 -1,5M47,31v12c0,2 1,4 1,4M50,31v14M53,31v12c0,2 -1,4 -1,4M57,31v10c0,3 1,5 1,5"
+        android:strokeColor="#99D6EAF8"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+    <!-- Luz tenue desde arriba -->
+    <path
+        android:pathData="M20,0v20M25,0v15M15,0v15"
+        android:strokeColor="#4D5DADE2"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"/>
+    <!-- Pez abisal con luz -->
+    <path
+        android:pathData="M8,40l10,4 -10,4 3,-4z"
+        android:fillColor="#2C3E50"/>
+    <path
+        android:pathData="M5,44c1,0 2,1 2,2s-1,2 -2,2 -2,-1 -2,-2 1,-2 2,-2z"
+        android:fillColor="#F1C40F"/>
+</vector>

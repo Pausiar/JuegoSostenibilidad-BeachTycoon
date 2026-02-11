@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Bolsa de basura verde -->
+    <path
+        android:pathData="M19,4H5c-1.1,0 -2,0.9 -2,2v12c0,1.1 0.9,2 2,2h14c1.1,0 2,-0.9 2,-2V6c0,-1.1 -0.9,-2 -2,-2z"
+        android:fillColor="#27AE60"/>
+    <!-- Asa superior -->
+    <path
+        android:pathData="M8,4V2h8v2"
+        android:strokeColor="#1E8449"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"/>
+    <!-- Nudo -->
+    <path
+        android:pathData="M9,4h6v2c0,1 -1,2 -3,2s-3,-1 -3,-2V4z"
+        android:fillColor="#1E8449"/>
+    <!-- Líneas de arruga -->
+    <path
+        android:pathData="M7,10l3,8M17,10l-3,8M12,10v8"
+        android:strokeColor="#1E8449"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"/>
+</vector>

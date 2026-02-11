@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Océano con olas -->
+    <path
+        android:pathData="M0,0h64v64H0z"
+        android:fillColor="#5DADE2"/>
+    <!-- Olas -->
+    <path
+        android:pathData="M0,20c8,-5 16,5 24,0s16,-5 24,0 16,5 16,0"
+        android:strokeColor="#3498DB"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M0,35c10,-6 20,6 30,0s20,-6 34,0"
+        android:strokeColor="#2980B9"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M0,50c8,-5 16,5 24,0s16,-5 24,0 16,5 16,0"
+        android:strokeColor="#1F618D"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"/>
+    <!-- Espuma -->
+    <path
+        android:pathData="M10,22c1,0 2,1 2,2s-1,2 -2,2 -2,-1 -2,-2 1,-2 2,-2zM30,18c1.5,0 3,1.5 3,3s-1.5,3 -3,3 -3,-1.5 -3,-3 1.5,-3 3,-3zM50,20c1,0 2,1 2,2s-1,2 -2,2 -2,-1 -2,-2 1,-2 2,-2z"
+        android:fillColor="#FFFFFF"/>
+</vector>

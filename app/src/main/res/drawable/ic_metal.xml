@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Lata de metal -->
+    <path
+        android:pathData="M7,5h10c1,0 2,1 2,2v12c0,1 -1,2 -2,2H7c-1,0 -2,-1 -2,-2V7c0,-1 1,-2 2,-2z"
+        android:fillColor="#7F8C8D"/>
+    <!-- Borde superior -->
+    <path
+        android:pathData="M6,5h12v2H6z"
+        android:fillColor="#95A5A6"/>
+    <!-- Borde inferior -->
+    <path
+        android:pathData="M6,19h12v2H6z"
+        android:fillColor="#95A5A6"/>
+    <!-- Brillo metálico -->
+    <path
+        android:pathData="M8,7v12"
+        android:strokeColor="#BDC3C7"
+        android:strokeWidth="2"
+        android:alpha="0.5"
+        android:fillColor="#00000000"/>
+    <!-- Anilla -->
+    <path
+        android:pathData="M10,3h4v2h-4z"
+        android:fillColor="#95A5A6"/>
+    <path
+        android:pathData="M11,2c1.1,0 2,0.5 2,1H11c0,-0.5 0.9,-1 0,-1z"
+        android:fillColor="#7F8C8D"/>
+</vector>

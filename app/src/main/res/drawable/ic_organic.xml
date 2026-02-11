@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Manzana (residuo orgánico) -->
+    <path
+        android:pathData="M12,6c4,0 7,3 7,7s-3,9 -7,9 -7,-5 -7,-9 3,-7 7,-7z"
+        android:fillColor="#27AE60"/>
+    <!-- Hoja -->
+    <path
+        android:pathData="M12,3c0,0 3,0 3,3s-3,2 -3,2"
+        android:fillColor="#1E8449"/>
+    <!-- Tallo -->
+    <path
+        android:pathData="M12,3v3"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+    <!-- Brillo -->
+    <path
+        android:pathData="M9,10c1,0 2,1 2,2"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:alpha="0.4"
+        android:fillColor="#00000000"/>
+</vector>
