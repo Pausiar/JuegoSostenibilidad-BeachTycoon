@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <!-- Storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:name=".AmplyaApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Amplya">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_task_check" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/primary_container" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/fcm_default_channel_id" />
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CheckInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HistoricoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SendDocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DocumentacionActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="OPEN_DOC_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.NominasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ParteIncidenciaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CircularesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.TareasHoyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SolicitudesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SolicitudVacacionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SolicitudEnfermedadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SolicitudPermisoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ActivationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DemoPreviewActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".notifications.AmplyaFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
